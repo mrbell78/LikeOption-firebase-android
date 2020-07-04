@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="your post will be here "
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:id="@+id/postview"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00FFFFFF"
+                android:src="@drawable/ic_baseline_thumb_up"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:id="@+id/thumsup"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:textSize="17sp"
+                android:id="@+id/numoflike"
+                android:text="20"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
